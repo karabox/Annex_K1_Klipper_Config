@@ -75,3 +75,10 @@ managed_services = klipper
 info_tags = 
 	desc=Beacon Surface Scanner
 
+[update_manager belay]
+type = git_repo
+path = ~/belay_klippy_module
+origin = https://github.com/Annex-Engineering/Belay.git
+primary_branch = main
+managed_services = klipper
+
