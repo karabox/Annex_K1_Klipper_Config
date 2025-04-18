@@ -4,12 +4,6 @@ port = 7125
 max_upload_size = 1024
 klippy_uds_address = ~/printer_data/comms/klippy.sock
 
-[power Printer]
-type = klipper_device
-object_name = gcode_macro POWEROFF
-locked_while_printing = True
-initial_state = on
-
 [file_manager]
 enable_object_processing = False
 
